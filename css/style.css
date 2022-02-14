@@ -9,6 +9,8 @@
 	font-family: montserrat_black;
 	src: url(../Fonts/EN/Montserrat-Light.otf);
 	font-family: mont_light;
+	src: url(../Fonts/EN/Montserrat-Bold.otf);
+	font-family: mont_bold;
 }
 * {
 	margin: 0;
@@ -155,13 +157,14 @@ img {
 }
 
 .banner_text .hig_one .spaner {
+	font-family: mont_bold;
 	color: #f9a51a;
 	font-size: 56px;
 }
 
 .banner_arabic{
 	font-family: arabic !important;
-	color: red !important;
+	color: #f9a51a !important;
 }
 .banner_text h2 {
 	font-size: 32px;
@@ -593,9 +596,9 @@ img {
 	padding: 16px 0px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
-	background: #f1f1f1;
+	background: #F9A51A;
 	font-size: 18px;
-	color: #353535;
+	color: #fff;
 	font-weight: 400;
 	text-align: center;
 	line-height: 16px;
@@ -665,7 +668,6 @@ img {
 	border: 1px solid black;
 	color: #353535;
 	font-size: 14px;
-	font-family: Raleway-Bold;
 	font-weight: 400;
 	top: 388px;
 	left: 75px;
@@ -681,13 +683,13 @@ img {
 }
 
 .free_plan_main:hover .free_plan h1 {
-	background: #3c3579;
+	background: #F9A51A;
 	color: #fff;
 }
 
 .free_plan_main:hover .botton_sin a {
-	background: #3c3579;
-	border: 1px solid #3c3579;
+	background: #F9A51A;
+	border: 1px solid #F9A51A;
 	color: #fff;
 }
 
@@ -864,7 +866,7 @@ img {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.70);
+	background: #f9a31ab7;
 	left: 0;
 	top: 0;
 }
@@ -1078,7 +1080,7 @@ img {
 }
 
 #footer ul a i:hover {
-	background: #3c3579;
+	background: #f9a51a;
 	color: #fff;
 }
 
